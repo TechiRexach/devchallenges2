@@ -1,0 +1,46 @@
+
+
+.title{
+    margin-top: 71px;
+    font-size: 36px;
+}
+
+.we{
+    margin-top: 38px;
+    font-size: 18px;
+}
+
+.text{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.photos{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.photos div{
+    margin-bottom: 40px;
+}
+
+.vertical{
+    transform: rotate(90deg);
+    margin-top: 37px;
+    font-size: 10px;    
+}
+
+.name{
+    font-size: 14px;
+}
+
+img{
+    width: 70%;
+}
+
+.footer{
+    background-color: cadetblue;
+    margin-top: 134px;
+}
