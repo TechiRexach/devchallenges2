@@ -20,38 +20,18 @@
     margin-bottom: 20px;
 }
 
-.rowOne{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 40px;
-    height: 300px;
-}
-
-.colOne{
-     display: flex;
-}
-
-.one{
-    margin-bottom: 40px;
-    margin-right: 10px;
-}
-
-.onetext{
-    margin-top: -38px;
-}
-
-.two{
-    margin-top: 40px;
-}
-
-.vertical{
+.text-start{
+    font-size: 10px; 
     transform: rotate(90deg);
-    font-size: 10px;   
-    max-width: 200px;
-    max-height: 15px;
-    margin-top: 30px;
-    margin-left: -15px;
     font-family: 'PT Serif', serif;
+    width: 70px;
+    height: min-content;
+    margin-top: 30px;
+    margin-left: -60px;
+}
+
+.text-start.pares{
+    margin-top: 80px;
 }
 
 .name{
@@ -60,10 +40,7 @@
 
 img{
     width: 80%;
-}
-
-.impairphoto{
-    width: 85%;
+    vertical-align: middle;
 }
 
 .footer{
@@ -71,4 +48,88 @@ img{
     color: #A9A9A9;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+}
+
+.centro{
+    display: grid;
+    grid-template-columns: 40% 5% 40% 5% ;
+    grid-template-rows: 200px 200px 200px;
+    column-gap: 10px;
+    margin-left: 20px;
+}
+
+.pares{
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 960px){
+
+    .presentation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .info{
+        width: 60%;
+    }
+  
+    .we{
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    
+    .text{
+        margin-top: 10px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .rowOne{
+        width: 60%;
+        margin: 0px auto 100px auto;
+    }
+    
+    .colOne{
+        width: 70%;
+    }
+    
+    .one{
+        
+        margin-bottom: 40px;
+        margin-right: 10px;
+    }
+    
+    .onetext{
+        margin-top: -38px;
+    }
+    
+    .two{
+        margin-top: 40px;
+    }
+    
+    .vertical{
+        font-size: 12px;     
+    }
+    
+    .name{
+        font-size: 14px;
+    }
+    
+    img{
+        width: 40%;
+    }
+    
+    .impairphoto{
+        width: 40%;
+    }
+    
+    .footer{
+        margin-top: 100px;
+        color: #A9A9A9;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
 }
