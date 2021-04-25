@@ -85,45 +85,50 @@ img{
         margin-top: 10px;
         font-size: 18px;
         margin-bottom: 20px;
+        width: 400px;
     }
     
-    .rowOne{
-        width: 60%;
-        margin: 0px auto 100px auto;
+    .centro{
+        display: grid;
+        grid-template-columns: 20% 5% 20% 5% 20% 5%;
+        grid-template-rows: 200px 200px 200px;
+        row-gap: 300px;
+        justify-content: center;
+    }
+
+    .text-start{
+        font-size: 12px; 
+        transform: rotate(90deg);
+        font-family: 'PT Serif', serif;
+        width: 80px;
+        height: min-content;
+        margin-top: 30px;
+        margin-left: -170px;
     }
     
-    .colOne{
-        width: 70%;
+    .text-start.pares{
+        margin-top: 80px;
     }
-    
-    .one{
-        
-        margin-bottom: 40px;
-        margin-right: 10px;
+
+    .desktop{
+        margin-top: 40%;
     }
-    
-    .onetext{
-        margin-top: -38px;
-    }
-    
-    .two{
-        margin-top: 40px;
-    }
-    
-    .vertical{
-        font-size: 12px;     
-    }
+  
+    .text-start.medio1{
+      vertical-align: middle;
+      margin-top: 185px;
+   }
+
+   .medio2{
+       margin-top: 185px;
+   }
     
     .name{
-        font-size: 14px;
+        font-size: 18px;
     }
     
     img{
-        width: 40%;
-    }
-    
-    .impairphoto{
-        width: 40%;
+        width: 60%;
     }
     
     .footer{
